@@ -1,7 +1,5 @@
 # Quote App
 
-![Quote App]
-
 ## Overview
 
 Quote app is a React-based web application that allows users to create, read, and comment on quotes. The main features include quote creation, browsing existing quotes, and the ability to add comments to quotes. The application also provides sorting functionality for quotes in ascending/descending order. The project was developed as a practical exercise for React Router, leveraging custom hooks, various built-in React hooks such as useEffect, useCallback, useState, and incorporating a multitude of components. Additionally, Firebase has been integrated to serve as the backend and database for the application.
