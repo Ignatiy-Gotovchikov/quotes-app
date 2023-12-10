@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Quote App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Quote App]
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Quote app is a React-based web application that allows users to create, read, and comment on quotes. The main features include quote creation, browsing existing quotes, and the ability to add comments to quotes. The application also provides sorting functionality for quotes in ascending/descending order. The project was developed as a practical exercise for React Router, leveraging custom hooks, various built-in React hooks such as useEffect, useCallback, useState, and incorporating a multitude of components. Additionally, Firebase has been integrated to serve as the backend and database for the application.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Create Quotes**: Users can create their own quotes and contribute to the collection.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Browse Quotes**: Explore a collection of quotes added by users.
 
-### `npm test`
+- **Add Comments**: Engage with quotes by adding comments.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Sort Functionality**: Sort quotes in ascending or descending order.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: The core library for building the user interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React Router**: Implemented for navigation and routing within the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Custom Hooks**: Created custom hooks to encapsulate and reuse logic.
 
-### `npm run eject`
+- **Firebase**: Integrated as the backend and database solution.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Clone the repository.
+- Install dependencies using npm install.
+- Configure Firebase by adding your credentials in "src/lib/api"
+- Run the application using npm start.
